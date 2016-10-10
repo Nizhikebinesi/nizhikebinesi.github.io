@@ -9,7 +9,7 @@ published: true
    <article class="post">
 	<ul class="post-list">
       <li>
-      	<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      	<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} Written on {{ post.date | date: "%B %e, %Y" }}</a></h2>
 	
       	<div class="entry">
       	  {{ post.excerpt }}
