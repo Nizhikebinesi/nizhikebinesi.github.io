@@ -1,14 +1,15 @@
 ---
 layout: default
+published: true
 ---
 
 <div class="posts">
   <h1>Posts:</h1>
   {% for post in site.posts %}
     <article class="post">
-
+	<ul class="post-list">
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
+	</ul>
       <div class="entry">
         {{ post.excerpt }}
       </div>
