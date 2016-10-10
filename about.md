@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello! I am developer from Omsk.
+From 2015 to 2019 I learn in OmSU on IMIT.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+In near future I plan to develop my skills and make more projects than now.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[nizhikebinesi@rambler.ru](mailto:nizhikebinesi@rambler.ru)
