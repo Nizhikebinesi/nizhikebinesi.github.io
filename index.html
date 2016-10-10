@@ -9,12 +9,13 @@ published: true
     <article class="post">
 	<ul class="post-list">
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-	</ul>
+	
       <div class="entry">
         {{ post.excerpt }}
       </div>
-
+	
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+     </ul>
     </article>
   {% endfor %}
 </div>
