@@ -21,11 +21,11 @@ published: true
     </article>
   {% endfor %}
   <h1>Projects:</h1>
-  {% for post in site.posts %}
+  {% for project in site.projects %}
   	<article class="projects">
-    	<ul class="post-list">
+    	<ul class="project-list">
       		<li>
-      			<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      			<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ project.title }}</a></h2>
 	
       			<div class="entry">
       	  		{{ post.excerpt }}
