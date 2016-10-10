@@ -16,7 +16,7 @@ published: true
       	  {{ post.excerpt }}
       	</div>
 	
-        <div><b</div>><font size = 4 face = "italic"> {{ post.date | date: "%B %e, %Y" }}</font></b></div>
+        <b><font size = 4 face = "italic">\n {{ post.date | date: "%B %e, %Y" }}</font></b>
       	<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
        </li>
      </ul>
