@@ -4,7 +4,7 @@ published: true
 ---
 
 <div class="posts">
-  <h1>Posts:</h1>
+  <h2>Posts:</h2>
   {% for post in site.posts %}
    <article class="post">
 	<ul class="post-list">
@@ -22,12 +22,12 @@ published: true
      </ul>
     </article>
   {% endfor %}
-  <h1>Projects:</h1>
+  <h2>Projects:</h2>
   {% for project in site.projects %}
   	<article class="projects">
     	<ul class="project-list">
       		<li>
-      			<h2><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h2>
+      			<h3><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h3>
 	
       			<div class="entry">
       	  		{{ post.excerpt }}
