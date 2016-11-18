@@ -2,6 +2,11 @@
 published: true
 layout: post
 ---
+---
+layout: post
+title: My first Ruby-on-Rails application
+published: true
+---
 Today I deployed my first project on heroku and remoted it on GitHub.
 
 <a href="https://github.com/nizhikebinesi/myapp">Link on my first RoR app</a>
