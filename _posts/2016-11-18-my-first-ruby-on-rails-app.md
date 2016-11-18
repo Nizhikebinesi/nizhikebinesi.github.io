@@ -1,8 +1,7 @@
 ---
 published: true
----
 layout: post
-
+---
 Today I deployed my first project on heroku and remoted it on GitHub.
 
 <a href="https://github.com/nizhikebinesi/myapp">Link on my first RoR app</a>
