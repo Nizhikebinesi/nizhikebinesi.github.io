@@ -19,7 +19,7 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 footer-links:
   dribbble:
   email: nizhikebinesi@rambler.ru
-  facebook:
+  facebook: https://www.facebook.com/profile.php?id=100008793459959
   flickr:
   github: nizhikebinesi
   instagram:
@@ -30,7 +30,7 @@ footer-links:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
-  vk: nizhikebinesi
+  vk: #nizhikebinesi
   heroku:
   htmlacademy: #https://htmlacademy.ru/profile/nizhikebinesi
 
